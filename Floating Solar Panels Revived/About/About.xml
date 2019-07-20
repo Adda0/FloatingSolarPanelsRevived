@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Floating Solar Panels Revived</name>
+	<author>Adda</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<url></url>
+	<description>
+This is a revival of an original mod SN Floating Solar Panels which adds a new solar power generator – floating solar generator with the same stats as a normal solar generator but with increased building requirements and an ability to be build on the water (any type of water and marsh and mud land).
+
+––––––––––––
+New building
+A new building has been added – Floating solar generator – You can find it in Power tab after researching Electricity and Solar panels.
+
+Stats
+Power output: 1 700 W
+Requirements to build: 200 steel and 4 components
+Construction skill prerequisites: 8
+Research prerequisites: Electricity, Solar panels
+Work to build: 2 500
+
+––––––––––––
+Compatibility and other mods
+Mod is safe to add to your saved games or delete from them. Only make sure to deconstruct/destroy all floating solar generators on the map.
+
+Required mods
+None.
+
+Recommended mods
+None.
+
+Compatible mods
+Mod should be fully compatible with every other mod. Though I expect there will be some issues with other mods so if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+
+Known incompatible mods
+None so far. If you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+
+Load order
+Just load this anywhere below Core and you should be good to go.
+
+Load order should not be affected by any other mods but if you find any problems, just let me know in the discussion below so I can fix them.
+
+––––––––––––
+Credits
+Original mod: SN Floating Solar Panels by Soggy Noodle and Shotgunfrenzy – I used their idea and artwork and fully rewrote their code to have the same function but be compatible with 1.0.
+
+License
+All original code in this mod is licensed under the MIT license. Do whatever you might want to do with my mod, but would be nice if you would give me credit for the original mod/idea :)
+	</description>
+</ModMetaData>
