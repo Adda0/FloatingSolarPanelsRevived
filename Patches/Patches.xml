@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Water Tiles -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "WaterDeep"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "WaterShallow"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "Marsh"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+<!-- Soil Tiles -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "MarshyTerrain"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "MarshyTerrain"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "MarshyTerrain"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/TerrainDef[defName = "Mud"]/affordances</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationInsert">
+			<xpath>Defs/TerrainDef[defName = "Mud"]/renderPrecedence</xpath>
+			<value><affordances /></value>
+		</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationadd">
+		<xpath>Defs/TerrainDef[defName = "Mud"]/affordances</xpath>
+		<value>
+			<li>FloatingSolarGenerator</li>
+		</value>
+	</Operation>
+
+</Patch>
