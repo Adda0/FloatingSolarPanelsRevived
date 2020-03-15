@@ -2,7 +2,10 @@
 <ModMetaData>
 	<name>Floating Solar Panels Revived</name>
 	<author>Adda</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
 	<url></url>
 	<description>
 This is a revival of an original mod SN Floating Solar Panels which adds a new solar power generator – floating solar generator with the same stats as a normal solar generator but with increased building requirements and an ability to be build on the water (any type of water and marsh and mud land).
